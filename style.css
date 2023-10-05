@@ -1,0 +1,87 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(90deg, #2a3c4e, #322b46);
+    margin: 0px;
+    padding: 0px;
+}
+form {
+    background-color: white;
+    height: 420px;
+    width: 500px;
+    margin: auto;
+}
+h1{
+    margin-left: 10px;
+    /* margin-top: 30px; */
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 5px;
+    row-gap: 1px;
+    justify-items: center;
+    
+    
+}
+.fn p{
+    margin-bottom: 5px;
+}
+
+.un p{
+    margin-bottom: 5px;
+}
+
+.email p{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.pn p{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.password p{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.cp p{
+    margin-bottom: 3px;
+    margin-top: 10px;
+    
+}
+input{
+    width: 210px;
+    padding-top: 3px;
+    padding-bottom: 7px;
+
+}
+
+ul{
+    display: flex;
+    column-gap: 90px;
+    list-style-type:circle;
+    
+    
+}
+.gender{
+    margin-top:0px;
+    padding-top: 15px;
+    margin-left: 10px;
+}
+button{
+    width: 95%;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 3px;
+    color: white;
+    background-image: linear-gradient(90deg, #2a3c4e, #322b46);
+    border: 1px;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+}
